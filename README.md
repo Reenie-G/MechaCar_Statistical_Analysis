@@ -26,10 +26,10 @@ Total_Summary
 
 ![totalsummary_df](Images/totalsummary_df.png)
 
--The PSI Mean for all 3 lots is 1498.78
--The PSI Median for all 3 lots is 1500
--The PSI Variance for all 3 lots is 62.29
--The PSI standard deviation for all 3 lots is 7.892
+- The PSI Mean for all 3 lots is 1498.78
+- The PSI Median for all 3 lots is 1500
+- The PSI Variance for all 3 lots is 62.29
+- The PSI standard deviation for all 3 lots is 7.892
 
 ![lotsummary_df](Images/lotsummary_df.png)
 
@@ -60,7 +60,7 @@ The p-value for lot 3 is 0.04 which is less than 0.05. The null hypothesis will 
 
 A one-way ANOVA test is one way MechaCar can see how it performs against it's competitors. This will allow for testing of different metrics by vehicle class (e.g., cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating). 
 
-If MechaCar wanted to compare its suv's highway fuel efficieny against it's competitors. The suv's will be independent variable since this is the categorical data and the dependent variable will be highay fuel efficieny since this is numerical and continous. The null hypotheses would indicate, if MechaCar's highfuel efficiency p-value is below 0.05 then it is different from it's competitors.
+MechaCar can compare its suv's highway fuel efficieny against it's competitors. The suv's will be independent variable since this is the categorical data and the dependent variable will be highay fuel efficieny since this is numerical and continous. The null hypotheses would indicate, if MechaCar's highfuel efficiency p-value is below 0.05 then it is different from it's competitors.
 The alternate hypotheses would indiciate, if the p-value was above 0.05, then it would be the same.
 
 Once the p-value has been determined, then we would need to get the mean to determine if MechaCar falls above or below. MechaCar can then have a more accurate picture of where they stand against their competitors. 
