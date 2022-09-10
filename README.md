@@ -8,9 +8,9 @@
 
 1.) Which variables/coefficients provided a non-random amount of variance fo the mpg values in the dataset?
 
-1.vehicle_weight: 0.0776
-2.spoiler_angle: 0.3069
-3.AWD: 0.1852
+- vehicle_weight: 0.0776
+- spoiler_angle: 0.3069
+- AWD: 0.1852
 	
 2.) Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -23,6 +23,7 @@ The r-squared value is 0.7149 which translates to 71%; therefore, the linear mod
 ## **Summary Statistics on Suspension Coils**
 
 Total_Summary
+
 ![totalsummary_df](Images/totalsummary_df.png)
 
 -The PSI Mean for all 3 lots is 1498.78
@@ -30,7 +31,7 @@ Total_Summary
 -The PSI Variance for all 3 lots is 62.29
 -The PSI standard deviation for all 3 lots is 7.892
 
-![lot_summary_df](Images/lot_summary_df.png)
+![lotsummary_df](Images/lotsummary_df.png)
 
 Looking at the total_summary_df, the variance for all 3 lots is 62.29. The lot_summary_df shows the standard deviation for Lot 1 is 0.989, Lot 2 is 2.733, and Lot 3 is 13.049. 
 
